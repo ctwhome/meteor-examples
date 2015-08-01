@@ -7,3 +7,13 @@
 meteor-platform
 autopublish
 insecure
+sanjo:jasmine
+momentjs:moment
+tap:i18n
+coffeescript
+urigo:angular
+accounts-ui
+accounts-facebook
+utilities:avatar
+mdg:geolocation
+mdg:camera

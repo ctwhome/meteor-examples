@@ -3,12 +3,25 @@
 </head>
 
 <body>
+{{> loginButtons}}
+{{> avatar user=this size=small shape=circle}}
   <h1>Welcome to Meteor!</h1>
 
   {{> hello}}
+
+ 
+ 
 </body>
 
 <template name="hello">
   <button>Click Me</button>
   <p>You've pressed the button {{counter}} times.</p>
+	<h3>Say hello to the people no??</h3>
+	<div>{{_ "HELLO"}}</div>
+<div>
+	
+	 {{location}}
+</div>
+
+
 </template>
